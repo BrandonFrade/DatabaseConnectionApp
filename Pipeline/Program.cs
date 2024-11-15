@@ -11,7 +11,7 @@ namespace Pipeline
     {
         static async Task Main(string[] args)
         {
-            var connectionString = "Server=DESKTOP-SV3KE10;Database=PipelineTest;User Id=DESKTOP-SV3KE10\\User;";
+            var connectionString = "Server=DESKTOP-SV3KE10;Database=PipelineTest;User Id=DESKTOP-SV3KE10\\User;Integrated Security=True;";
 
             using (var connection = new SqlConnection(connectionString))
             {
