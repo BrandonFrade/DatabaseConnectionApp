@@ -31,4 +31,4 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run application
-        run: dotnet run --project DatabaseConnectionApp/DatabaseConnectionApp.csproj
+        run: dotnet run --project Pipeline/Pipeline.csproj
